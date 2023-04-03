@@ -1,0 +1,1 @@
+A C++ implementation for transforming a lambda non-deterministic finite automaton (λ-NFA) to a deterministic finite automaton (DFA).
