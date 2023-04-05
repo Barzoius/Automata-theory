@@ -1,1 +1,1 @@
-A C++ implementation for FA to regex conversion.
+A C++ implementation for a finite automaton(FA) to regex conversion.
