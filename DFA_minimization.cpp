@@ -1,5 +1,7 @@
 #include <iostream>
 
+//O sa adaug comentarii//
+
 struct State{
 
     int IDstate;
@@ -9,7 +11,7 @@ struct State{
     void set(int);
 };
 
-void State::set(int symbs) // inputs states represents the number of states
+void State::set(int symbs)
 {
     PTRState = new int[symbs];
     std::cout<<"State: q";
@@ -143,7 +145,7 @@ int main()
 {
     std::cout<<"Enter number of states: ";
     std::cin>>states;
-    std::cout<<"Enter number of input symbols: ";
+    std::cout<<"Enter transition symbols: ";
     std::cin>>symbs;
     State s[states];
     for(int i=0;i<states;i++)
