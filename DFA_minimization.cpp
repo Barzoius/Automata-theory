@@ -152,7 +152,7 @@ int main()
     {
         s[i].set(symbs);
     }
-    Groups=2; 
+    Groups=2;  //Primele doua partitii
     MINIMIZATION(s);
     PrintPartitions(s);
     run(s);
