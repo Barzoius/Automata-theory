@@ -116,7 +116,7 @@ int main()
 {
     std::cout<<"Enter number of states: ";
     std::cin>>states;
-    std::cout<<"Enter number of input symbols: ";
+    std::cout<<"Enter number of transitions: ";
     std::cin>>symbs;
     std::cout<<"Enter number of final states: ";
     int n;
