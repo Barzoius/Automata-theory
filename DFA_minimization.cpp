@@ -112,6 +112,26 @@ void PrintPartitions(State s[])
     }
 }
 
+void PrintPartitions(State s[])
+{
+    std::cout<<"PARTITIONS: "<<std::endl;
+    for(int i = 0; i < Groups; i++)
+    {
+        std::cout<<"{ ";
+        for(int j = 0; j < states; j++)
+        {
+            if(s[j].IDgroup == i) {
+                std::cout<<"q"<<s[j].IDstate<<" [";
+                for(int k = 0; k < symbs; k++) {
+                    std::cout<<s[j].PTRState[k]<<" ";
+                }
+                std::cout<<"] , ";
+            }
+        }
+        std::cout<<"}\n";
+    }
+}
+
 int main()
 {
     std::cout<<"Enter number of states: ";
